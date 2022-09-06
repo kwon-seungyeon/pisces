@@ -1,0 +1,403 @@
+#place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** hovertext **/
+.hovertext {
+    position: relative;
+    /*
+    border-bottom: 1px dotted black;
+    */
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em ;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+    
+}
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext1 **/
+.hovertext1 {
+    position: relative;
+}
+.hovertext1:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 600px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 310px;
+    top: -110px;
+}
+.hovertext1:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext2 **/
+.hovertext2 {
+    position: relative;
+}
+.hovertext2:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #84C6F7;
+    color: #000;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+.hovertext2:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext3 **/
+.hovertext3 {
+    position: relative;
+}
+.hovertext3:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext3:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext4 **/
+  .hovertext4 {
+    position: relative;
+}
+.hovertext4:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext4:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext5 **/
+.hovertext5 {
+    position: relative;
+}
+.hovertext5:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext5:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext6 **/
+.hovertext6 {
+    position: relative;
+}
+.hovertext6:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext6:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext7 **/
+.hovertext7 {
+    position: relative;
+}
+.hovertext7:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext7:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext8 **/
+.hovertext8 {
+    position: relative;
+}
+.hovertext8:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext8:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext9 **/
+.hovertext9 {
+    position: relative;
+}
+.hovertext9:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext9:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext10 **/
+.hovertext10 {
+    position: relative;
+}
+.hovertext10:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext10:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext11 **/
+.hovertext11 {
+    position: relative;
+}
+.hovertext11:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext11:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext12 **/
+.hovertext12 {
+    position: relative;
+}
+.hovertext12:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext12:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext13 **/
+.hovertext13 {
+    position: relative;
+}
+.hovertext13:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext13:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/** hovertext14 **/
+.hovertext14 {
+    position: relative;
+}
+.hovertext14:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1em;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 10px;
+}
+.hovertext14:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
